@@ -22,4 +22,5 @@ echo $FILENAME
 
 cd $DIR
 	echo "Run Command: $JMETER -n -t $FILE -l $FILENAME.jtl -j $FILENAME.log"
+	$JMETER -n -t $FILE -l $FILENAME.jtl -j $FILENAME.log
 cd $PWD
