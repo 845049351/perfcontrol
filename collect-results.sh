@@ -17,6 +17,6 @@ for ip in `cat .conf/*server`; do
   fi
 done
 
-#ip=zqueue.lab4.alipay.net
+#ip=zqueue.lab4.imbugs.com
 #mkdir -p $dir/nmon
 #scp $USER@$ip:/home/$USER/.lab*/*.nmon $dir/nmon/
